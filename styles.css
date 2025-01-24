@@ -1,0 +1,41 @@
+:root {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   }
+   
+   body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   }
+   
+   #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    background-color: #f0f0f0;
+    gap: 0;
+    margin: 20px;
+    padding: 0;
+   }
+   
+   #button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+   }
+   
+   .box:hover {
+    background-color: #f0f0f0 !important;
+   }
